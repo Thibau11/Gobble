@@ -1,0 +1,20 @@
+connection : git clone https://github.com/Thomas701/gobble_project.git
+			 ID
+			 Token
+
+add all files :
+	git add .
+	git commit -m "Message"
+	git push 
+		ID
+		Token
+
+git pull origin master
+git push -u origin master
+
+
+begin push : git pull origin master
+			 if error :
+			 	git add . + git -m commit "(my files)" 
+			 else :
+			 	push
